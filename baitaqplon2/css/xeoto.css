@@ -1,0 +1,92 @@
+
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+        }
+        .header img {
+            height: 50px;
+        }
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+        .sidebar {
+            width: 200px;
+            float: left;
+        }
+        .sidebar h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        .content {
+            margin-left: 220px;
+        }
+        .content h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .content .filters {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .content .filters label {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .content .filters input {
+            margin-right: 5px;
+        }
+        .content .car-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .content .car-item {
+            width: calc(33.333% - 20px);
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .content .car-item img {
+            width: 100%;
+            height: auto;
+        }
+        .content .car-item h3 {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .content .car-item p {
+            color: #888;
+        }
